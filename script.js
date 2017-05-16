@@ -9,26 +9,28 @@
 	// sprite1.onload = drawPattern;
 
 	//Variable storage for text.
-	var buttonText;
-	var tempText;
-	//Chest text container.
+	// var buttonText;
+	// var tempText;
 
-	var chestText = ["Blue", "Green", "Orange"];
+//This randomize the divs with any of the listed classes.
+ function reset(){
+	$(document).ready(function(){
+		var classes = ["chestBlue", "chestGreen", "chestOrange"];
 
-	//Random generator.
-	var randomGenerator = function(){
-	 var temp = Math.floor((Math.random() * 3) + 1);
-
-	 document.getElementBy("1").addEventListener() = temp;
-	}
-	$(".divButtons").on("click", function(){
-		tempText = $(this).text()
-
-		for (var index in chestText){
-			if (temp === index) {
-				console.log("You win!")
-			}
-		}
-
+		$(".divChestContainer div").each(function(){
+			$(this).addClass(classes[Math.floor(Math.random() * classes.length)]);
+		});
 	});
-//Use array "sort" method for randomizing chest.
+}
+
+//Working on a click/compare buttom function below.
+	// $(".divButtons").on("click", function(){
+	// 	tempText = $(this).text()
+
+	// 	for (var index in chestText){
+	// 		if (temp === index) {
+	// 			console.log("You win!")
+	// 		}
+	// 	}
+
+	// });
