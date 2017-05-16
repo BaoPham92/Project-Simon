@@ -1,0 +1,61 @@
+.chestBlue {
+background: url('Sprites/spritesheetBlue.png');
+width: 101px;
+height: 171px;
+}
+.chestGreen {
+background: url('Sprites/spritesheetGreen.png');
+width: 101px;
+height: 171px;
+}
+.chestOrange {
+background: url('Sprites/spritesheetOrange.png');
+width: 101px;
+height: 171px;
+}
+
+.divChestContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.divButtonContainer {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+margin: 5px;
+padding: 15px;
+}
+
+.divButtons:nth-of-type(1){order: 1; }
+.divButtons:nth-of-type(2){order: 2; }
+.divButtons:nth-of-type(3){order: 3; }
+
+.divButtons {
+	margin: 15px;
+}
+/*#square1 {
+	width: 100px;
+	height: 100px;
+	background: orange;
+}
+
+#square2 {
+	width: 100px;
+	height: 100px;
+	background: blue;
+}
+#square3 {
+	width: 100px;
+	height: 100px;
+	background: green;
+}*/
+
+#blink {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+
+}
