@@ -22,6 +22,7 @@
 		});
 	});
 }
+reset();
 
 //Working on a click/compare buttom function below.
 	// $(".divButtons").on("click", function(){
