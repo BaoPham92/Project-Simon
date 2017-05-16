@@ -1,25 +1,40 @@
+// setInterval(update, 50);
+
 //Animations.
 
-var chestBlue =	$(function updateBlue() {
-  var $asset = $(".chestBlue");
-  var animate = function() {
-  };
-  $asset.motio({frames: 7, fps: 4});
-  $asset.motio("toEnd", animate);
+// var chestList = {};
+
+var element = document.querySelector('.chestBlue');
+var chestBlue = new Motio(element, {
+  fps: 4,
+  frames: 7
 });
 
-var	chestGreen = $(function updateGreen() {
-  var $asset = $(".chestGreen");
-  var animate = function() {
-  };
-  $asset.motio({frames: 7, fps: 4});
-  $asset.motio("toEnd", animate);
+chestBlue.toEnd();
+
+var element = document.querySelector('.chestGreen');
+var chestGreen = new Motio(element, {
+  fps: 4,
+  frames: 7
 });
 
-var chestOrange = $(function updateOrange() {
-  var $asset = $(".chestOrange");
-  var animate = function() {
-  };
-  $asset.motio({frames: 7, fps: 4});
-  $asset.motio("toEnd", animate);
+chestGreen.toEnd();
+
+var element = document.querySelector('.chestOrange');
+var chestOrange = new Motio(element, {
+  fps: 4,
+  frames: 7
 });
+
+chestOrange.toEnd();
+
+
+// function updateEntity(anyChest){
+//   anyChest.play();
+// }
+
+// function update(){
+// for(var key in chestList)
+//   updateEntity(chestList[key])
+
+// }

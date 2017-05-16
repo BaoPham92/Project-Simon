@@ -10,11 +10,25 @@
 
 	//Variable storage for text.
 	var buttonText;
+	var tempText;
+	//Chest text container.
+
+	var chestText = ["Blue", "Green", "Orange"];
 
 	//Random generator.
-	var randomGenerator = Math.floor((Math.random() * 3);
+	var randomGenerator = function(){
+	 var temp = Math.floor((Math.random() * 3) + 1);
 
-// 		function(aChest){
+	 document.getElementBy("1").addEventListener() = temp;
+	}
+	$(".divButtons").on("click", function(){
+		tempText = $(this).text()
 
-// 	$("aChest").on("click", function(){
-// }
+		for (var index in chestText){
+			if (temp === index) {
+				console.log("You win!")
+			}
+		}
+
+	});
+//Use array "sort" method for randomizing chest.
