@@ -11,7 +11,7 @@
 	//Variable storage for text.
 	// var buttonText;
 	// var tempText;
-	var answerwer = [];
+	var answer = [];
 	var tempAnswer = [];
 
 //This randomize the divs with any of the listed classes.
