@@ -23,7 +23,7 @@
 
 		$(".divChestContainer div").each(function(){
 			$(this).addClass(classes[Math.floor(Math.random() * classes.length)]);
-			 answerwer.push($(this).attr('class'))
+			 answer.push($(this).attr('class'))
 		});
 	});
 }
