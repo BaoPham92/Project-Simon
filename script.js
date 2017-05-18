@@ -13,9 +13,11 @@
 	// var tempText;
 	var answer = [];
 	var tempAnswer = [];
+/*    ^^^Good idea       */
 
 //This randomize the divs with any of the listed classes.
- function reset(){
+  /*!!! Document.ready is side a function? WHY?   !!!*/
+ function reset(){ 
 	$(document).ready(function(){
 		var classes = ["chestBlue", "chestGreen", "chestOrange"];
 
@@ -23,6 +25,10 @@
 
 		$(".divChestContainer div").each(function(){
 			$(this).addClass(classes[Math.floor(Math.random() * classes.length)]);
+									/* ^^^this could be a function 
+					 const randomClass = () => Math.floor(Math.random() * classes.length);
+									*/
+
 			 answer.push($(this).attr('class'))
 		});
 	});
@@ -52,7 +58,7 @@ reset();
 	    for (var i = tempAnswer.length; i >= 0;i--) {
 	        if(tempAnswer[i] !== answer[i]) {
 	        	console.log("not match")
-				return false;
+				return false;/* Test this, does return break for loop??? */
 	        }
 	    }
 	    console.log("true");
@@ -61,6 +67,8 @@ reset();
 
 	$("#blueButton").on("click", function(){
 		tempAnswer.push($(".divChestContainer div[class='chestBlue']").attr('class'))
+		/*                 ^^^Could this be saved in a variable??
+		*/
 		console.log(tempAnswer);
 	if ( comparison() ){
 		alert("You win!");
@@ -70,6 +78,7 @@ reset();
 	};
 			
 	});
+/*   Consistant indenting needed!!  */
 
 				$("#greenButton").on("click", function(){
 			tempAnswer.push($(".divChestContainer div[class='chestGreen']").attr('class'))
