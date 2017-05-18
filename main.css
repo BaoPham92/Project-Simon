@@ -13,11 +13,37 @@ background: url('Sprites/spritesheetOrange.png');
 width: 101px;
 height: 171px;
 }
+.chestSelector {
+background: url('Sprites/spritesheetSelector.png');
+width: 101px;
+height: 171px;
+}
+
+.chestBlue1 {
+background: url('Sprites/spritesheetBlue.png');
+width: 101px;
+height: 171px;
+}
+.chestGreen1 {
+background: url('Sprites/spritesheetGreen.png');
+width: 101px;
+height: 171px;
+}
+.chestOrange1 {
+background: url('Sprites/spritesheetOrange.png');
+width: 101px;
+height: 171px;
+}
 
 .divChestContainer {
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.divChestContainer1 {
+display: flex;
+justify-content: center;
 }
 
 .divButtonContainer {
@@ -53,12 +79,12 @@ padding: 15px;
 	background: green;
 }*/
 
-#blink {
+/*#blink {
 	width: 100px;
 	height: 100px;
 	background-color: white;
 
-}
+}*/
 
 /*#switcher > div {
 
