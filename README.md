@@ -1,34 +1,31 @@
-# Project-Simon
+# Project 1 Evaluation
 
-techologies: 
+## Deployment
 
-So in this project, I attempted to take the approach of using two outside methods in implementing code. 
+**3: Excelling**
+> The app is deployed to gh-pages
 
-1. Canvas.
+## Technical Requirements
 
-2. Animations. (sprite sheet animations.)
+**2: Performing**
+> App functions with minimal or no errors.
 
-Approach:
+## Code Quality
 
-I had had chosen to use the canvas and animations as a duo combo. I didn't make step by step plans as I wanted to make sure that I was able to setup a base mainframe of the two.
+**2: Performing**
+Feedback:
+Mostly my JQuery in js. I feel like I could have made cleaner code, especially when trying to grab classes from the chest animations.
 
-Installation:
+DRY code is there. Last minute hurdle to recoup lost structure. Although for the JQuery I believe there are cleaner ways to write them. I think I could have a loop to iterate them through a function if I put them in an object then object in array.
 
-1. Motio CDN //This was a claimed stable version until I had fallouts near the end.
+> Can you point me to specific lines you'd like feedback on and what your questions about it are? Generally, I'd say your code could be a little more organized. It's  a little hard to read with the unusual formatting and you have a lot of commented out code in there that shouldn't be on the main branch of an application. Also, `document.ready` shouldn't be inside a function. That should encompass all your code. Little confused by the `animation.js` file. Is there a reason it's in vanilla JS? Could this have been in your main `script.js` file?
 
-2. JQuery CDN
+## Creativity and Interface
 
-3. Script.js tag
+**3: Excelling**
+> The app displays a personal spin or creative element through its written language, functionality, purpose, and/or CSS. Some instructions guiding the user on how to play would be helpful. Took me a minute to figure out what was going on. Also, I'd style the buttons. The default look isn't great. That said, the animations are cool!.
 
-4. Animation.js tag
 
-Unsolved problems:
 
-1. Level sequence.
 
-2. Had a working canvas initiation with a workable template. Canvas was aborted seeing as mountains of implemtations occured with the CDN library of motio near the end, as well as tools to design the canvas. 
-
-3. Implementations of extra classes for the animations halted due to library errors of Motio. 
-
-4. Failed to recognize targetable objects for incrementing custom properties from Motio. "FPS" and "Frames"
 
