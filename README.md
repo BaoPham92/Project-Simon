@@ -2,7 +2,7 @@
 
 ## Deployment
 
-**2: Excelling**
+**3: Excelling**
 > The app is deployed to gh-pages
 
 ## Technical Requirements
